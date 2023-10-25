@@ -1,0 +1,330 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+        font-family: 'Mooli', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Rubik', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MAIN CSS */
+/* body{
+        background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1684148.jpg&f=1&nofb=1&ipt=51eac2e732c94536fde2aec314ce755ff71eb306257d392af435a40a1c8bcd14&ipo=images);
+        width: 100%;
+        height: 150%;
+} */
+.wrapper{
+        width: 1080px;
+        margin: 0px auto 0px auto;
+}
+header{
+        height: 100.167px;
+        padding: 20px;
+        background: #242422;
+}
+.logo{
+        float: left;
+}
+.logo img{
+        width: 100px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+}
+.header-Content{
+        float: right;
+}
+.header-Content p{
+        border-right: 2px solid #ffffff;
+        border-left: 2px solid #ffffff;
+        color: #d81515;
+        padding: 5px;
+        transition: all ease 0.6s;
+}
+.header-Content p:hover{
+        border-left: 2px solid #e70808;
+        border-right: 2px solid #e70808;
+        color: #ffffff;
+}
+.Social{
+        float: right;
+}
+.Social li{
+        display: inline-block;
+        margin: 10px 0px;
+        padding: 12px;
+}
+.Social li a{
+        display: block;
+        width: 30px;
+        height: 22px;
+        padding-top:7px;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+}
+.Social li a.f{
+        background: #0165E1;
+        color: #ffffff;
+}
+.Social li a.t{
+        background: #1DA1F2;
+        color: #ffffff;
+}
+.Social li a.y{
+        background: #da0505;
+        color: #ffff;
+}
+.Social li a.g{
+        background:#0e0d0de3;
+        color: #ffffff;
+}
+.navigation_bar{
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000;
+        background: #ff0101;
+}
+.navigation_bar ul li{
+        display: inline-block;
+        margin: 0 0px 0 0px;
+}
+.navigation_bar{
+        display: flex;
+}
+.navigation_bar ul li a{/**problem solve with sir**//**problem solve with sir**/
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+	padding: 7px 7px;
+        border-right: 1px solid #020000;
+        transition:.9s;
+        margin-left: -3.9px; /**problem solve with sir**//**problem solve with sir**/
+}
+.navigation_bar ul li a:hover{
+	transition:.9s;
+	background: #ffffff;
+        color: #000000;
+        border-right: 1px solid #030303;
+}
+.item_search ul li{
+        padding-top: 3.8px;
+}
+.item_search ul li{
+        margin-left: 400px;
+        color: #ffffff;
+}
+.fa-search{
+        color: #ffffff;
+        float: right;
+        padding-top: 2.5px;
+        margin-right:-30px;
+}
+.slider img{
+        width: 100%;
+}
+/*items Start*/
+.items{
+        width: 100%;
+}
+.header_name{
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 1000;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: #ff0101;
+}
+.item_menu{
+        display: flex;
+        /* margin: 0 30px 0 0; */
+}
+.item_menu .Menu{
+        width: 740px;
+        min-height: 540.117px;
+        display: block;
+        margin: 0 15px 0 0;
+        background: #ffffff;
+        box-shadow: 0px 0px 4px 0px rgba(34, 33, 33, 0.811);
+        margin-left: 4px;
+}
+.item_menu .Menu img{
+
+	width: 260.69px;
+}
+.para{
+        padding: 10px;
+}
+.para h2.title_name{
+        font-weight: bold;
+        font-size: 1rem;
+        color: #ff0101;
+        border-bottom: 2px solid #ff0101;
+}
+.para p.p{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        padding-top: 20px;
+        text-align: justify;
+}
+.para span{
+        margin-top: 45px;
+        float: right;
+        color: #494a4b;
+        font-weight: bold;
+}
+.para button{
+        margin-top: 40px;
+        float: left;
+        cursor: pointer;
+}
+.para button.cart{
+        padding: 4px 10px 4px 10px;
+        background: #da0505;
+        color: #ffffff;
+        border-radius: 6px;
+        font-weight: bold;
+        border: none;
+}
+/*items End*/
+
+/*items-list Start*/
+.items-lists{
+        width: 100%;
+}
+
+/*name-menu Start*/
+.items-lists-name{
+        text-align: center;
+        margin-top: 65px;
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #e90d0d;
+        /* padding-top: -50px; */
+        padding-bottom: 40px;
+}
+/*name-menu End*/
+
+.item-list{
+        padding: 18px;
+        display: flex;
+}
+.item-list .column1{
+        margin:0px 20px 0px 0px;
+}
+.column1 h1.title-Burger{
+        text-align: center;
+        /* margin-top: px; */
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #e90d0d;
+        padding-top: 5px;
+        padding-bottom: 10px;
+}
+
+/* column1 img Start */
+.column1 img{
+        width: 345px;
+}
+/* column1 img End*/
+
+/* Column2 Start *//* Column2 Start */
+.column2{
+        margin-top: 24px;
+        background: #494a4b;
+}
+/* column2 img Start*/
+.column2 img{
+        width: 80px;
+        height: 61px;
+}
+/* column2 img end*/
+.column2 p{
+        display: inline-block;
+        float: right;
+}
+.column2 p.pp{
+        font-size: 13px;
+        text-align: justify;
+        padding-top: 17px;
+        padding-right: 10px;
+        margin-left: -10px;
+        color: #ffffff;
+}
+/* Column2 End *//* Column2 End */
+
+
+.clear{
+        clear: both;
+}
+/*items-list End*/
+
+/* footer start */
+.web-end{
+        margin-top: 50px;
+        width: 100%;
+        min-height: 350px;
+        background: #eb1f04;
+        box-shadow: 0px 10px 2px 0px rgb(14, 13, 13);
+}
+.web-end h2{
+        padding: 20px;
+        text-align: center;
+        font-size: 2rem;
+        border-bottom: 2px solid #ffffff;
+        color: #ffffff;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+}
+h1.bd{
+        margin-left: 25px;
+        margin-top: 100px;
+        font-size: 2rem;
+        color: #ffffff;
+        font-family: 'Nunito Sans', sans-serif;
+}
+/* footer End */
+.clear{
+        clear:both;
+}
